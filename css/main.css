@@ -669,7 +669,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 15rem;
+  padding: 0 15rem;
 }
 
 .prototyping .header-prototyping {
