@@ -175,7 +175,7 @@ body {
 .load-text4 {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 30%;
   font-size: calc(5rem + 1vw);
   color: white;
   opacity: 0;
