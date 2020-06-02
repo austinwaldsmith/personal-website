@@ -15,9 +15,9 @@ function delay(n) {
     var tl = gsap.timeline();
     tl.set('.loading-screen', { transformOrigin: "bottom left"});
     tl.to('.loading-screen', { duration: .5, scaleX: 1});
-    tl.to('.load-text1', { duration: 1, opacity: 1, translateX: 10});
+    tl.to('.load-text1', { duration: 1, opacity: 1, translateY: 10});
     tl.to('.load-text1', { duration: .75, opacity: 0});
-    tl.to('.load-text1', { duration: 0, translateX: 0});
+    tl.to('.load-text1', { duration: 0, translateY: 0});
     tl.to('.loading-screen', { duration: .5, scaleX: 0, skewY: 0, transformOrigin: "top right", ease: "power1.out", delay: .75 }, "-=1");
   }
   
@@ -26,9 +26,9 @@ function delay(n) {
     var tl = gsap.timeline();
     tl.set('.loading-screen', { transformOrigin: "bottom left"});
     tl.to('.loading-screen', { duration: .5, scaleX: 1});
-    tl.to('.load-text2', { duration: 1, opacity: 1, translateX: 10});
+    tl.to('.load-text2', { duration: 1, opacity: 1, translateY: 10});
     tl.to('.load-text2', { duration: .75, opacity: 0});
-    tl.to('.load-text2', { duration: 0, translateX: 0});
+    tl.to('.load-text2', { duration: 0, translateY: 0});
     tl.to('.loading-screen', { duration: .5, scaleX: 0, skewY: 0, transformOrigin: "top right", ease: "power1.out", delay: .75 }, "-=1");
   }
   
@@ -37,9 +37,9 @@ function delay(n) {
     var tl = gsap.timeline();
     tl.set('.loading-screen', { transformOrigin: "bottom left"});
     tl.to('.loading-screen', { duration: .5, scaleX: 1});
-    tl.to('.load-text3', { duration: 1, opacity: 1, translateX: 10});
+    tl.to('.load-text3', { duration: 1, opacity: 1, translateY: 10});
     tl.to('.load-text3', { duration: .75, opacity: 0});
-    tl.to('.load-text3', { duration: 0, translateX: 0});
+    tl.to('.load-text3', { duration: 0, translateY: 0});
     tl.to('.loading-screen', { duration: .5, scaleX: 0, skewY: 0, transformOrigin: "top right", ease: "power1.out", delay: .75 }, "-=1");
   }
 
@@ -48,9 +48,9 @@ function delay(n) {
     var tl = gsap.timeline();
     tl.set('.loading-screen', { transformOrigin: "bottom left"});
     tl.to('.loading-screen', { duration: .5, scaleX: 1});
-    tl.to('.load-text4', { duration: 1, opacity: 1, translateX: 10});
+    tl.to('.load-text4', { duration: 1, opacity: 1, translateY: 10});
     tl.to('.load-text4', { duration: .75, opacity: 0});
-    tl.to('.load-text4', { duration: 0, translateX: 0});
+    tl.to('.load-text4', { duration: 0, translateY: 0});
     tl.to('.loading-screen', { duration: .5, scaleX: 0, skewY: 0, transformOrigin: "top right", ease: "power1.out", delay: .75 }, "-=1");
   }
   // Function to animate the content of each page
