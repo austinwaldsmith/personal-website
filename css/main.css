@@ -761,7 +761,7 @@ p {
     padding-left: 0;
   }
   .prototyping {
-    padding-left: 0;
+    padding: 0;
   }
   .main-prototyping {
     -webkit-box-align: center;
