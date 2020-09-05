@@ -1,0 +1,47 @@
+#gallery {
+  width: 100vw;
+  padding: 5rem 5vw;
+  @include flex(center, column, center);
+
+  #header-gallery {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 140rem;
+    @include flex(center, row, center);
+    flex-wrap: wrap;
+    img {
+      object-fit: cover;
+      height: auto;
+      width: 100%;
+    }
+
+    .art {
+      position: relative;
+      z-index: 1;
+      transition: 0.5s linear all;
+      flex: 1 1 30rem;
+      padding: 0 0.5rem;
+      padding-bottom: 2rem;
+
+      &:hover {
+        scale: 0.98;
+      }
+    }
+    .info {
+      top: 0;
+      height: 100%;
+      margin: 0 auto;
+      background: $off-white;
+      z-index: 0;
+      position: absolute;
+      @include flex(flex-start, column, center);
+      padding: 0 10%;
+      h2 {
+        font-size: calc(2rem + 1vw);
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}

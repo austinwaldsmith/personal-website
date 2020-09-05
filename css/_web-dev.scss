@@ -1,0 +1,76 @@
+#projects {
+  padding: 5rem 5vw;
+  @include flex(center, column, center);
+
+  #header-projects {
+    min-height: 10vh;
+  }
+
+  .grid-container {
+    a {
+      text-decoration: none;
+    }
+    .square {
+      background: $off-white;
+      color: white;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+      }
+
+      video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+      }
+
+      &:hover {
+        scale: 0.98;
+        opacity: 0.75;
+      }
+    }
+    span {
+      color: rgb(228, 58, 58);
+      font-weight: 900;
+      background: rgb(228, 58, 58);
+      padding: 0.1rem 0.5rem;
+      margin-left: 1rem;
+    }
+    h3 {
+      z-index: 1;
+    }
+    #nyt {
+      background: #333;
+      h3 {
+        font-size: calc(5rem + 2vw);
+      }
+    }
+    #bastion {
+      background: #7fafe7;
+      h3 {
+        font-size: calc(5rem + 2vw);
+        width: 100%;
+        background: rgba(255, 255, 255, 0.87);
+        color: #7fafe7;
+        text-align: center;
+      }
+    }
+    #heart {
+      z-index: 1;
+    }
+    #photon {
+      color: rgb(84, 84, 190);
+      h3 {
+        font-size: calc(5rem + 2vw);
+        background: white;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

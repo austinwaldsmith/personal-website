@@ -1,0 +1,61 @@
+#contact {
+  min-height: 90vh;
+  padding-top: 5rem;
+  @include flex(center, column, center);
+
+  #header-contact {
+    min-height: 10vh;
+    padding-bottom: 0;
+  }
+
+  #contact-main {
+    height: 100%;
+    max-width: 130rem;
+    padding: 0 5vw;
+    @include flex(center, row, center);
+    flex-wrap: wrap;
+  }
+
+  #contact-info {
+    flex: 1 1 40rem;
+    a {
+      font-size: calc(1.5rem + 1vw);
+      align-self: flex-start;
+    }
+  }
+
+  form {
+    padding-top: 5rem;
+    @include flex(center, column, center);
+    flex: 1 1 40rem;
+    h2 {
+      padding-bottom: 1rem;
+    }
+    input,
+    textarea {
+      width: 100%;
+      max-width: 120rem;
+      padding: 0.5rem 1rem;
+      background: rgb(73, 86, 107);
+      color: $off-white;
+      border: none;
+      outline: none;
+    }
+    input {
+      margin-bottom: 0.5rem;
+    }
+    button {
+      background: $off-white;
+      border: none;
+      color: black;
+      margin-top: 0.5rem;
+      width: 100%;
+      font-size: $header1;
+      max-width: 120rem;
+      transition: 0.5s ease all;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

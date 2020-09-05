@@ -1,0 +1,47 @@
+#services {
+  @include flex(center, column, center);
+  padding: 5rem;
+
+  .grid-container {
+    .square {
+      background: $background;
+      color: $off-white;
+
+      video {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      img {
+        object-fit: cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+
+      h2 {
+        z-index: 1;
+        font-weight: 500;
+        font-size: calc(4rem + 1vw);
+        width: 100%;
+        text-align: center;
+      }
+    }
+    #denim {
+      h2 {
+        background: rgba(0, 0, 0, 0.336);
+      }
+    }
+    #web-design {
+      color: rgb(0, 0, 0);
+      width: 100%;
+      background: rgba(255, 255, 255, 0.459);
+      text-align: center;
+    }
+    #web-dev {
+      background: rgba(0, 0, 0, 0.363);
+    }
+  }
+}

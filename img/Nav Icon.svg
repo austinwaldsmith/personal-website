@@ -1,0 +1,8 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Nav Icon">
+<path id="light-red-icon" d="M25.0001 0L50 25H25L25.0001 0Z" fill="#954F4F"/>
+<path id="red-icon" d="M50 25.0001L25 50L25 25L50 25.0001Z" fill="#522020"/>
+<path id="dark-red-icon" d="M24.9999 50L-6.8167e-07 25L25 25L24.9999 50Z" fill="#2E1212"/>
+<path id="black-icon" d="M0 24.9999L25 -6.8167e-07V25L0 24.9999Z" fill="#030303"/>
+</g>
+</svg>
