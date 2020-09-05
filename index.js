@@ -75,7 +75,7 @@ function activeCursor(e) {
 //Slide Animations
 
 gsap.from("#intro", 1, { x: "-100%", delay: 0.5 });
-gsap.to(".reveal-home", 2, { x: "100%", delay: 0.5 });
+gsap.to(".reveal-home", 2, { width: 0, delay: 0.5 });
 gsap.to("#header-home", 1, { y: 0, delay: 0.5 });
 gsap.to("nav", 0.75, { opacity: 1 });
 
