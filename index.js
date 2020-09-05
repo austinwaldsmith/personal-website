@@ -86,14 +86,14 @@ function animateSections() {
       scrollTrigger: {
         trigger: section,
         //pin: true,
-        start: "top 80%", // when the top of the trigger hits the top of the viewport
-        end: "+=500", // end after scrolling 500px beyond the start
+        start: "10% 80%", // when the top of the trigger hits the top of the viewport
+        end: "+=800", // end after scrolling 500px beyond the start
         scrub: 1,
-        //markers: { startColor: "green", endColor: "red", fontSize: "12px" },
+        markers: { startColor: "green", endColor: "red", fontSize: "12px" },
         toggleActions: "play play restart restart",
       },
     });
-    tl.from(section, 3, { x: "100%", opacity: 0 });
+    tl.from(section, 2.5, { y: "25%", scale: 0.9, opacity: 0 });
   });
 }
 animateSections();
