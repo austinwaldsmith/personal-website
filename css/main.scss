@@ -23,7 +23,7 @@ $nav-red: #522020ef;
 
 body {
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   background: $off-white;
@@ -133,6 +133,7 @@ nav {
 }
 
 .cursor {
+  display: none;
   width: 3rem;
   height: 3rem;
   border: 1rem solid white;
@@ -209,6 +210,9 @@ nav {
   }
   #dev-img {
     height: 100vh;
+  }
+  .cursor {
+    display: block;
   }
   nav {
     border: none;
